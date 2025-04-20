@@ -11,7 +11,7 @@ const navData = [
 const Navbar2 = () => {
   return (
     <nav>
-      <ul>
+      <ul className="flex">
         {navData.map((route) => (
           <Link key={route.id} route={route}></Link>
         ))}
